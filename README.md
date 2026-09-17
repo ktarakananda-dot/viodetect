@@ -81,10 +81,12 @@ python main.py
 
 ## 👥 Authors
 
+- **Soumava Das** – VioLENS: Intelligent Violence Detection System (2025)
+- **Sarthak Saha** – VioLENS: Intelligent Violence Detection System (2025)
+- **Debshankar Dey** – VioLENS: Intelligent Violence Detection System (2025)
 - **Konapala Tarakananda** – VioLENS: Intelligent Violence Detection System (2025)
 
-
----
+---   
 
 ## Acknowledgement
 
