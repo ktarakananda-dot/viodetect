@@ -1,0 +1,27 @@
+2026-11-17 23:55:32.543576: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING:tensorflow:From C:\Users\DELL\anaconda3\envs\violens\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+ * Restarting with stat
+WARNING:tensorflow:From C:\Users\DELL\anaconda3\envs\violens\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+ * Debugger is active!
+ * Debugger PIN: 790-248-105
+127.0.0.1 - - [17/Nov/2026 23:57:00] "GET / HTTP/1.1" 200 -
+ * Detected change in 'C:\\Users\\DELL\\Documents\\mylearning projects\\viodetect\\viodetect\\Website\\Website\\deep_sort\\sort\\preprocessing.py', reloading
+Exception in thread Thread-1 (serve_forever):
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\violens\Lib\threading.py", line 1045, in _bootstrap_inner
+    self.run()
+  File "C:\Users\DELL\anaconda3\envs\violens\Lib\threading.py", line 982, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\DELL\anaconda3\envs\violens\Lib\site-packages\werkzeug\serving.py", line 823, in serve_forever
+    super().serve_forever(poll_interval=poll_interval)
+  File "C:\Users\DELL\anaconda3\envs\violens\Lib\socketserver.py", line 233, in serve_forever
+ * Restarting with stat
+WARNING:tensorflow:From C:\Users\DELL\anaconda3\envs\violens\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+ * Debugger is active!
+ * Debugger PIN: 790-248-105

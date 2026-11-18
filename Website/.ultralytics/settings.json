@@ -1,0 +1,20 @@
+{
+  "settings_version": "0.0.6",
+  "datasets_dir": "C:\\Users\\datasets",
+  "weights_dir": "C:\\Users\\DELL\\weights",
+  "runs_dir": "C:\\Users\\DELL\\runs",
+  "uuid": "efafb257ac040784d5d6c42a49e6585a3e300f95c4a3ca766dc5c021426aa1e6",
+  "sync": true,
+  "api_key": "",
+  "openai_api_key": "",
+  "clearml": true,
+  "comet": true,
+  "dvc": true,
+  "hub": true,
+  "mlflow": true,
+  "neptune": true,
+  "raytune": true,
+  "tensorboard": true,
+  "wandb": false,
+  "vscode_msg": true
+}

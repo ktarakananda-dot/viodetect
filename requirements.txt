@@ -1,0 +1,23 @@
+﻿# Windows 11 / Python 3.11 compatible runtime and project dependencies
+numpy==1.26.4
+opencv-contrib-python==4.10.0.84
+# Ultralytics requires opencv-python; keep the shared cv2 files on one version.
+opencv-python==4.10.0.84
+mediapipe==0.10.18
+tensorflow==2.16.1
+torch==2.5.1
+torchvision==0.20.1
+ultralytics==8.3.98
+
+# Application and DeepSORT utilities
+Flask==3.1.1
+Flask-Login==0.6.3
+Flask-SQLAlchemy==3.1.1
+bcrypt>=4.0,<5
+SQLAlchemy==2.0.27
+pandas==2.2.3
+scipy==1.12.0
+matplotlib==3.8.3
+motmetrics==1.4.0
+easydict==1.13
+PyYAML>=6.0,<7
