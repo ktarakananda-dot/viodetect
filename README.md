@@ -66,16 +66,27 @@ We engineered our own dataset using the `pose_data_generation.py` script:
 
 # Clone the repository
 git clone https://github.com/Kazuto16K/VioLENS.git
+cd VioLENS
 
-# Install Requirements
-pip install -r requirements.txt
+# The trained Keras models are stored with Git LFS
+git lfs install
+git lfs pull --include="Website/Website/models/*.keras"
 
-# Change directory to Website
+# Create the Python 3.11 environment and install dependencies
+conda create -n violens python=3.11 pip -y
+conda activate violens
+python -m pip install -r requirements.txt
+
+# Start the Flask website
 cd Website
-
-# Run the Flask app
 python main.py
 ```
+
+The website opens at `http://127.0.0.1:5000`. Create an account from the
+signup page, then choose a webcam index or video source and the camera angle
+on the monitoring page. The front camera option uses `pose_transformer.keras`;
+the CCTV option uses `pose_violence_detection_cctv.keras`. A webcam is needed
+for live camera input; a local video file can be used as the source instead.
 
 ---
 
